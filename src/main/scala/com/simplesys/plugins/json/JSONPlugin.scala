@@ -18,8 +18,8 @@ object JSONPlugin extends AutoPlugin {
     }
 
     override val projectSettings: Seq[Setting[_]] = inConfig(Compile)(Seq(
-        outputDir := (sourceManaged in Compile) / "com" / "simplesys" / "json",
-        generateThisFunctions := genThisFunction(outputDir.value, maxArity.valie).value,
+        outputDir := (sourceManaged in Compile).value / "com" / "simplesys" / "json",
+        generateThisFunctions := genThisFunction(outputDir.value, maxArity.value),
         sourceGenerators += generateThisFunctions
     ))
 
