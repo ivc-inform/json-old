@@ -2,13 +2,11 @@ sbtPlugin := true
 
 name := "json"
 
-//enablePlugins(GitVersioning)
-
 organization := "com.simplesys"
 
-version := "1.0.1"
+version := "1.0.2-SNAPSHOT"
 
-scalaVersion := "2.10.6"
+scalaVersion := "2.12.3"
 
 scalacOptions := Seq(
     "-feature",
@@ -39,5 +37,4 @@ publishArtifact in(Compile, packageSrc) := true
 
 publishMavenStyle := true
 
-//git.baseVersion := "1.3"
 
