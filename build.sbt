@@ -21,7 +21,7 @@ description := ""
 
 libraryDependencies ++= {
 	//val ssysCoreVersion = "1.2.100"
-	val ssysCoreVersion = "1.3-SNAPSHOT"
+	val ssysCoreVersion = "1.4-SNAPSHOT"
 	Seq(       
     		"com.simplesys.core" %% "scala-gen" % ssysCoreVersion
 	)
