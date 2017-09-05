@@ -37,5 +37,3 @@ publishArtifact in(Compile, packageSrc) := true
 
 publishMavenStyle := true
 
-//git.baseVersion := "1.3"
-
