@@ -2,8 +2,6 @@ sbtPlugin := true
 
 name := "json"
 
-//enablePlugins(GitVersioning)
-
 organization := "com.simplesys"
 
 version := "1.0.1"
