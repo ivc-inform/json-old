@@ -20,9 +20,9 @@ scalacOptions := Seq(
 description := ""
 
 libraryDependencies ++= {
-	//val ssysCoreVersion = "1.2.100"
-	val ssysCoreVersion = "1.4-SNAPSHOT"
-	Seq(       
+	val ssysCoreVersion = "1.4.0.2"
+	//val ssysCoreVersion = "1.4-SNAPSHOT"
+	Seq(
     		"com.simplesys.core" %% "scala-gen" % ssysCoreVersion
 	)
 }	
