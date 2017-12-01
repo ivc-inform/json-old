@@ -4,7 +4,7 @@ name := "json"
 
 organization := "com.simplesys"
 
-version := "1.0.4-SNAPHOT"
+version := "1.0.4-SNAPSHOT"
 
 scalaVersion := "2.12.4"
 
