@@ -4,9 +4,9 @@ name := "json"
 
 organization := "com.simplesys"
 
-version := "1.0.3"
+version := "1.0.4-SNAPHOT"
 
-scalaVersion := "2.12.3"
+scalaVersion := "2.12.4"
 
 scalacOptions := Seq(
     "-feature",
@@ -20,8 +20,8 @@ scalacOptions := Seq(
 description := ""
 
 libraryDependencies ++= {
-	val ssysCoreVersion = "1.4.0.2"
-	//val ssysCoreVersion = "1.4-SNAPSHOT"
+	//val ssysCoreVersion = "1.4.0.2"
+	val ssysCoreVersion = "1.5-SNAPSHOT"
 	Seq(
     		"com.simplesys.core" %% "scala-gen" % ssysCoreVersion
 	)
